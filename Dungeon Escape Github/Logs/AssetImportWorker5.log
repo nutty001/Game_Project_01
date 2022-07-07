@@ -15,9 +15,15 @@ C:/Users/pratik-pc/Documents/GitHub/Game_Project_01/Dungeon Escape Github
 -logFile
 Logs/AssetImportWorker5.log
 -srvPort
+<<<<<<< HEAD:Dungeon Escape Github/Logs/AssetImportWorker5.log
 61471
 Successfully changed project path to: C:/Users/pratik-pc/Documents/GitHub/Game_Project_01/Dungeon Escape Github
 C:/Users/pratik-pc/Documents/GitHub/Game_Project_01/Dungeon Escape Github
+=======
+56951
+Successfully changed project path to: C:/Users/Asbaq Laareb/Documents/GitHub/Game_Project_01/Dungeon Escape Github
+C:/Users/Asbaq Laareb/Documents/GitHub/Game_Project_01/Dungeon Escape Github
+>>>>>>> 1132b51600fe3a07056238d720009c82787997ec:Dungeon Escape Github/Logs/AssetImportWorker0-prev.log
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -47,7 +53,11 @@ C:/Users/pratik-pc/Documents/GitHub/Game_Project_01/Dungeon Escape Github
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
+<<<<<<< HEAD:Dungeon Escape Github/Logs/AssetImportWorker5.log
 Refreshing native plugins compatible for Editor in 114.38 ms, found 3 plugins.
+=======
+Refreshing native plugins compatible for Editor in 50.25 ms, found 3 plugins.
+>>>>>>> 1132b51600fe3a07056238d720009c82787997ec:Dungeon Escape Github/Logs/AssetImportWorker0-prev.log
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.5f1 (40eb3a945986)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.5f1/Editor/Data/Resources/UnitySubsystems
@@ -60,6 +70,7 @@ Direct3D:
     VRAM:     4021 MB
     Driver:   31.0.15.1659
 Initialize mono
+<<<<<<< HEAD:Dungeon Escape Github/Logs/AssetImportWorker5.log
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.5f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.5f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.5f1/Editor/Data/MonoBleedingEdge/etc'
@@ -70,11 +81,26 @@ Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.5f1/E
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.5f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.5f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
 Registered in 0.037700 seconds.
+=======
+Mono path[0] = 'D:/Software/2021.3.4f1/Editor/Data/Managed'
+Mono path[1] = 'D:/Software/2021.3.4f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'D:/Software/2021.3.4f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56032
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/Software/2021.3.4f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: D:/Software/2021.3.4f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: D:/Software/2021.3.4f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: D:/Software/2021.3.4f1/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll
+Registered in 0.004064 seconds.
+Native extension for UWP target not found
+>>>>>>> 1132b51600fe3a07056238d720009c82787997ec:Dungeon Escape Github/Logs/AssetImportWorker0-prev.log
 Native extension for WindowsStandalone target not found
 [usbmuxd] Start listen thread
 [usbmuxd] Listen thread started
 Native extension for iOS target not found
 Native extension for Android target not found
+<<<<<<< HEAD:Dungeon Escape Github/Logs/AssetImportWorker5.log
 Refreshing native plugins compatible for Editor in 105.51 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
@@ -82,10 +108,21 @@ Mono: successfully reloaded assembly
 Domain Reload Profiling:
 	ReloadAssembly (2939ms)
 		BeginReloadAssembly (459ms)
+=======
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 42.69 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.651 seconds
+Domain Reload Profiling:
+	ReloadAssembly (652ms)
+		BeginReloadAssembly (88ms)
+>>>>>>> 1132b51600fe3a07056238d720009c82787997ec:Dungeon Escape Github/Logs/AssetImportWorker0-prev.log
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
+<<<<<<< HEAD:Dungeon Escape Github/Logs/AssetImportWorker5.log
 			CreateAndSetChildDomain (3ms)
 		EndReloadAssembly (1755ms)
 			LoadAssemblies (449ms)
@@ -101,17 +138,39 @@ Domain Reload Profiling:
 				BeforeProcessingInitializeOnLoad (4ms)
 				ProcessInitializeOnLoadAttributes (250ms)
 				ProcessInitializeOnLoadMethodAttributes (123ms)
+=======
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (458ms)
+			LoadAssemblies (88ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (126ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (27ms)
+			SetupLoadedEditorAssemblies (256ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (61ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (43ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (100ms)
+				ProcessInitializeOnLoadMethodAttributes (51ms)
+>>>>>>> 1132b51600fe3a07056238d720009c82787997ec:Dungeon Escape Github/Logs/AssetImportWorker0-prev.log
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
+<<<<<<< HEAD:Dungeon Escape Github/Logs/AssetImportWorker5.log
 Registered in 0.016708 seconds.
+=======
+Registered in 0.007344 seconds.
+>>>>>>> 1132b51600fe3a07056238d720009c82787997ec:Dungeon Escape Github/Logs/AssetImportWorker0-prev.log
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for iOS target not found
 Native extension for Android target not found
+<<<<<<< HEAD:Dungeon Escape Github/Logs/AssetImportWorker5.log
 Refreshing native plugins compatible for Editor in 161.32 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
@@ -119,9 +178,104 @@ Mono: successfully reloaded assembly
 Domain Reload Profiling:
 	ReloadAssembly (3317ms)
 		BeginReloadAssembly (302ms)
+=======
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 42.09 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.087 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1088ms)
+		BeginReloadAssembly (224ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (133ms)
+		EndReloadAssembly (753ms)
+			LoadAssemblies (83ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (206ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (48ms)
+			SetupLoadedEditorAssemblies (376ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (13ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (42ms)
+				BeforeProcessingInitializeOnLoad (70ms)
+				ProcessInitializeOnLoadAttributes (206ms)
+				ProcessInitializeOnLoadMethodAttributes (42ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
+Refreshing native plugins compatible for Editor in 0.75 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2464 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 32 unused Assets / (30.2 KB). Loaded Objects now: 2929.
+Memory consumption went from 110.2 MB to 110.2 MB.
+Total: 4.026800 ms (FindLiveObjects: 0.225100 ms CreateObjectMapping: 0.193800 ms MarkObjects: 3.582100 ms  DeleteObjects: 0.024600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 545807.929576 seconds.
+  path: Assets/assets/Player assets/Idle/idle4.png
+  artifactKey: Guid(1d5e1deaf7ec4574cab2b5181480817f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/assets/Player assets/Idle/idle4.png using Guid(1d5e1deaf7ec4574cab2b5181480817f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9255da3a962ec42072df02a3802bec32') in 0.109990 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 15.533968 seconds.
+  path: Assets/assets/Player assets/Idle/idle5.png
+  artifactKey: Guid(5377f4d0406939d46888f7f3099e0c91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/assets/Player assets/Idle/idle5.png using Guid(5377f4d0406939d46888f7f3099e0c91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1dc6493f02074a8a1a453a01a399191f') in 0.014501 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 13.055178 seconds.
+  path: Assets/assets/Player assets/Idle/idle6.png
+  artifactKey: Guid(b21ec0cd29601844ebc6cdbfb6eabdbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/assets/Player assets/Idle/idle6.png using Guid(b21ec0cd29601844ebc6cdbfb6eabdbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c69c51f6e039255be9a93286c257db2a') in 0.015718 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 12.659446 seconds.
+  path: Assets/assets/Player assets/Idle/idle7.png
+  artifactKey: Guid(f772036eaef43bb46a39d9b8dda7089c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/assets/Player assets/Idle/idle7.png using Guid(f772036eaef43bb46a39d9b8dda7089c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b148dbf23330678748baf9e192fee301') in 0.020240 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007190 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.54 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.915 seconds
+Domain Reload Profiling:
+	ReloadAssembly (915ms)
+		BeginReloadAssembly (121ms)
+>>>>>>> 1132b51600fe3a07056238d720009c82787997ec:Dungeon Escape Github/Logs/AssetImportWorker0-prev.log
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (13ms)
 			BackupInstance (0ms)
+<<<<<<< HEAD:Dungeon Escape Github/Logs/AssetImportWorker5.log
 			ReleaseScriptingObjects (8ms)
 			CreateAndSetChildDomain (58ms)
 		EndReloadAssembly (2671ms)
@@ -139,10 +293,87 @@ Domain Reload Profiling:
 				ProcessInitializeOnLoadAttributes (775ms)
 				ProcessInitializeOnLoadMethodAttributes (132ms)
 				AfterProcessingInitializeOnLoad (18ms)
+=======
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (34ms)
+		EndReloadAssembly (702ms)
+			LoadAssemblies (77ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (209ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (41ms)
+			SetupLoadedEditorAssemblies (327ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (22ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (67ms)
+				ProcessInitializeOnLoadAttributes (197ms)
+				ProcessInitializeOnLoadMethodAttributes (37ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.00 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2453 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 20 unused Assets / (24.7 KB). Loaded Objects now: 2938.
+Memory consumption went from 113.3 MB to 113.3 MB.
+Total: 3.027900 ms (FindLiveObjects: 0.332100 ms CreateObjectMapping: 0.096800 ms MarkObjects: 2.584100 ms  DeleteObjects: 0.013900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.008642 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.49 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.915 seconds
+Domain Reload Profiling:
+	ReloadAssembly (916ms)
+		BeginReloadAssembly (118ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (33ms)
+		EndReloadAssembly (704ms)
+			LoadAssemblies (79ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (203ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (41ms)
+			SetupLoadedEditorAssemblies (329ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (21ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (64ms)
+				ProcessInitializeOnLoadAttributes (198ms)
+				ProcessInitializeOnLoadMethodAttributes (41ms)
+				AfterProcessingInitializeOnLoad (4ms)
+>>>>>>> 1132b51600fe3a07056238d720009c82787997ec:Dungeon Escape Github/Logs/AssetImportWorker0-prev.log
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (18ms)
 Platform modules already initialized, skipping
+<<<<<<< HEAD:Dungeon Escape Github/Logs/AssetImportWorker5.log
 ========================================================================
 Worker process is ready to serve import requests
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.22 seconds
@@ -208,6 +439,14 @@ Unloading 2456 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 20 unused Assets / (31.7 KB). Loaded Objects now: 2931.
 Memory consumption went from 108.6 MB to 108.6 MB.
 Total: 8.133200 ms (FindLiveObjects: 0.314300 ms CreateObjectMapping: 0.286500 ms MarkObjects: 7.501700 ms  DeleteObjects: 0.028700 ms)
+=======
+Refreshing native plugins compatible for Editor in 2.13 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2453 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 20 unused Assets / (24.6 KB). Loaded Objects now: 2941.
+Memory consumption went from 113.3 MB to 113.3 MB.
+Total: 3.186000 ms (FindLiveObjects: 0.185800 ms CreateObjectMapping: 0.093900 ms MarkObjects: 2.882000 ms  DeleteObjects: 0.023200 ms)
+>>>>>>> 1132b51600fe3a07056238d720009c82787997ec:Dungeon Escape Github/Logs/AssetImportWorker0-prev.log
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -222,11 +461,16 @@ AssetImportParameters requested are different than current active one (requested
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
+<<<<<<< HEAD:Dungeon Escape Github/Logs/AssetImportWorker5.log
 Registered in 0.014604 seconds.
+=======
+Registered in 0.008045 seconds.
+>>>>>>> 1132b51600fe3a07056238d720009c82787997ec:Dungeon Escape Github/Logs/AssetImportWorker0-prev.log
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for iOS target not found
 Native extension for Android target not found
+<<<<<<< HEAD:Dungeon Escape Github/Logs/AssetImportWorker5.log
 Refreshing native plugins compatible for Editor in 0.94 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
@@ -514,10 +758,21 @@ Mono: successfully reloaded assembly
 Domain Reload Profiling:
 	ReloadAssembly (3266ms)
 		BeginReloadAssembly (268ms)
+=======
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.80 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.904 seconds
+Domain Reload Profiling:
+	ReloadAssembly (905ms)
+		BeginReloadAssembly (121ms)
+>>>>>>> 1132b51600fe3a07056238d720009c82787997ec:Dungeon Escape Github/Logs/AssetImportWorker0-prev.log
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (15ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
+<<<<<<< HEAD:Dungeon Escape Github/Logs/AssetImportWorker5.log
 			CreateAndSetChildDomain (62ms)
 		EndReloadAssembly (2696ms)
 			LoadAssemblies (233ms)
@@ -535,15 +790,43 @@ Domain Reload Profiling:
 				ProcessInitializeOnLoadMethodAttributes (134ms)
 				AfterProcessingInitializeOnLoad (25ms)
 				EditorAssembliesLoaded (1ms)
+=======
+			CreateAndSetChildDomain (32ms)
+		EndReloadAssembly (689ms)
+			LoadAssemblies (76ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (196ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (38ms)
+			SetupLoadedEditorAssemblies (330ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (20ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (67ms)
+				ProcessInitializeOnLoadAttributes (199ms)
+				ProcessInitializeOnLoadMethodAttributes (40ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+>>>>>>> 1132b51600fe3a07056238d720009c82787997ec:Dungeon Escape Github/Logs/AssetImportWorker0-prev.log
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (31ms)
 Platform modules already initialized, skipping
+<<<<<<< HEAD:Dungeon Escape Github/Logs/AssetImportWorker5.log
 Refreshing native plugins compatible for Editor in 11.23 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2456 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 20 unused Assets / (31.8 KB). Loaded Objects now: 2949.
 Memory consumption went from 108.7 MB to 108.7 MB.
 Total: 5.233600 ms (FindLiveObjects: 0.299400 ms CreateObjectMapping: 0.144900 ms MarkObjects: 4.757500 ms  DeleteObjects: 0.030000 ms)
+=======
+Refreshing native plugins compatible for Editor in 1.92 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2453 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 20 unused Assets / (24.7 KB). Loaded Objects now: 2944.
+Memory consumption went from 113.3 MB to 113.3 MB.
+Total: 3.437300 ms (FindLiveObjects: 0.185100 ms CreateObjectMapping: 0.085400 ms MarkObjects: 3.150400 ms  DeleteObjects: 0.015600 ms)
+>>>>>>> 1132b51600fe3a07056238d720009c82787997ec:Dungeon Escape Github/Logs/AssetImportWorker0-prev.log
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -556,6 +839,7 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
+<<<<<<< HEAD:Dungeon Escape Github/Logs/AssetImportWorker5.log
 Received Prepare
 Registering precompiled user dll's ...
 Registered in 0.011863 seconds.
@@ -1079,3 +1363,10 @@ Editor requested this worker to shutdown with reason: Scaling down because of id
 AssetImportWorker is now disconnected from the server
 Process exiting
 Exiting without the bug reporter. Application will terminate with return code 0
+=======
+Received Import Request.
+  Time since last request: 260.701252 seconds.
+  path: Assets/Dungeon/ai
+  artifactKey: Guid(8488bc2a2c204204ebebbfdfa38137d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dungeon/ai using Guid(8488bc2a2c204204ebebbfdfa38137d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80e35e5b9f202b192f7d4765c3650263') in 0.010226 seconds 
+>>>>>>> 1132b51600fe3a07056238d720009c82787997ec:Dungeon Escape Github/Logs/AssetImportWorker0-prev.log
