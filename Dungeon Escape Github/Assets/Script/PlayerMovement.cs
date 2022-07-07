@@ -12,7 +12,25 @@ public class PlayerMovement : MonoBehaviour
 
     private float dirX = 0f;
     [SerializeField] private float movespeed = 5f;
-    [SerializeField] private float jumpforce = 3f;
+    [SerializeField] private float jumpforce = 10f;
+
+    // public float min_X = -8.74f,max_X = 21.7f;
+    // private bool Out_of_Bounds;
+
+    
+    // void CheckBounds()
+    // {
+    //     Vector2 temp = transform.position;
+
+    //     if(temp.x > max_X)
+    //     temp.x = max_X;
+
+    //     if(temp.x < min_X)
+    //     temp.x = min_X;
+
+    //     transform.position = temp;
+
+    // }
 
     // Start is called before the first frame update
     private void Start()
@@ -37,11 +55,12 @@ public class PlayerMovement : MonoBehaviour
         } 
 
         UpdateAnimationUpdate();
+
+      //D  CheckBounds();
     }
 
     private bool IsGrounded() {
         RaycastHit2D raycastHit2d = Physics2D.BoxCast(boxCollider2d.bounds.center, boxCollider2d.bounds.size, 0f, Vector2.down, 1f,platformlayerMask);
-        Debug.Log(raycastHit2d.collider);
         return raycastHit2d.collider != null;
     }
     //Animation
@@ -51,11 +70,13 @@ public class PlayerMovement : MonoBehaviour
         {
             anim.SetBool("Running",true);
             sprite.flipX = false;
+          //  boxCollider2d.offset = new Vector2(-0.17f,boxCollider2d.offset.y);
         }
         else if(dirX < 0f)
         {
             anim.SetBool("Running",true);
             sprite.flipX = true;
+          //  boxCollider2d.offset = new Vector2(0.2f,boxCollider2d.offset.y);
         }
         else
         {
