@@ -1,0 +1,267 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.5f1 (40eb3a945986) revision 4254522'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22000) 64bit CoreSingleLanguage' Language: 'en' Physical Memory: 8039 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.5f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker6
+-projectPath
+C:/Users/pratik-pc/Documents/GitHub/Game_Project_01/Dungeon Escape Github
+-logFile
+Logs/AssetImportWorker6.log
+-srvPort
+61471
+Successfully changed project path to: C:/Users/pratik-pc/Documents/GitHub/Game_Project_01/Dungeon Escape Github
+C:/Users/pratik-pc/Documents/GitHub/Game_Project_01/Dungeon Escape Github
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 122.03 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.5f1 (40eb3a945986)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.5f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/pratik-pc/Documents/GitHub/Game_Project_01/Dungeon Escape Github/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1050 (ID=0x1c92)
+    Vendor:   NVIDIA
+    VRAM:     4021 MB
+    Driver:   31.0.15.1659
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.5f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.5f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.5f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56680
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.5f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.5f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.5f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.014254 seconds.
+Native extension for WindowsStandalone target not found
+[usbmuxd] Start listen thread
+[usbmuxd] Listen thread started
+Native extension for iOS target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 156.43 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.774 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2776ms)
+		BeginReloadAssembly (198ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (2ms)
+		EndReloadAssembly (1915ms)
+			LoadAssemblies (193ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (721ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (66ms)
+			SetupLoadedEditorAssemblies (1000ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (227ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (157ms)
+				BeforeProcessingInitializeOnLoad (4ms)
+				ProcessInitializeOnLoadAttributes (410ms)
+				ProcessInitializeOnLoadMethodAttributes (202ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.018388 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 78.00 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.441 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2442ms)
+		BeginReloadAssembly (210ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (10ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (36ms)
+		EndReloadAssembly (2019ms)
+			LoadAssemblies (154ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (391ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (180ms)
+			SetupLoadedEditorAssemblies (1088ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (38ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (78ms)
+				BeforeProcessingInitializeOnLoad (135ms)
+				ProcessInitializeOnLoadAttributes (748ms)
+				ProcessInitializeOnLoadMethodAttributes (77ms)
+				AfterProcessingInitializeOnLoad (11ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.21 seconds
+Refreshing native plugins compatible for Editor in 0.83 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2466 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 33 unused Assets / (55.7 KB). Loaded Objects now: 2928.
+Memory consumption went from 109.2 MB to 109.2 MB.
+Total: 5.886000 ms (FindLiveObjects: 0.444500 ms CreateObjectMapping: 0.371900 ms MarkObjects: 4.954300 ms  DeleteObjects: 0.113400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 326266.438843 seconds.
+  path: Assets/assets/Enemy Assets/Slime/hurt
+  artifactKey: Guid(24e5e8e9a23f66742b32afd0c143521f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/assets/Enemy Assets/Slime/hurt using Guid(24e5e8e9a23f66742b32afd0c143521f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f606c221cb33e3cdf2204589e9b8c175') in 0.042873 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.192904 seconds.
+  path: Assets/assets/Enemy Assets/Slime/hurt/SlimeHurtLeft.png
+  artifactKey: Guid(23915a265186f0944ad81554f4769349) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/assets/Enemy Assets/Slime/hurt/SlimeHurtLeft.png using Guid(23915a265186f0944ad81554f4769349) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7952dada78252e30e08a3d76842fd0af') in 0.270318 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 17.693836 seconds.
+  path: Assets/assets/Enemy Assets/Slime/hurt/SlimeHurtLeft.png
+  artifactKey: Guid(23915a265186f0944ad81554f4769349) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/assets/Enemy Assets/Slime/hurt/SlimeHurtLeft.png using Guid(23915a265186f0944ad81554f4769349) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92246854b5ef12678159056f0fdad293') in 0.030987 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.609171 seconds.
+  path: Assets/assets/Enemy Assets/Slime/hurt/SlimeHurtLeft.png
+  artifactKey: Guid(23915a265186f0944ad81554f4769349) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/assets/Enemy Assets/Slime/hurt/SlimeHurtLeft.png using Guid(23915a265186f0944ad81554f4769349) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8184206cb8b05eb82537ea3f8913cb40') in 0.097556 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 332.835326 seconds.
+  path: Assets/Dungeon/png/Objects/barrel.png
+  artifactKey: Guid(9f45dcf9e1626574daf410d5c8c18954) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dungeon/png/Objects/barrel.png using Guid(9f45dcf9e1626574daf410d5c8c18954) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29083a49424526d1e08b95f8009af4dc') in 0.062680 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.017954 seconds.
+  path: Assets/Dungeon/png/Chandelier/candelier (2).png
+  artifactKey: Guid(207dc0bda1e9a444b913653729e89e6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dungeon/png/Chandelier/candelier (2).png using Guid(207dc0bda1e9a444b913653729e89e6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19b4899232e9118a57c62fcf5fa3fbcb') in 0.071073 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000113 seconds.
+  path: Assets/Dungeon/png/Chest/chest (4).png
+  artifactKey: Guid(fb62017bc3d1b474dbf830a56a037c41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dungeon/png/Chest/chest (4).png using Guid(fb62017bc3d1b474dbf830a56a037c41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a5f1c6b57eceff6e43bd0688dd713d3') in 0.083551 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000069 seconds.
+  path: Assets/Dungeon/png/Door/door (5).png
+  artifactKey: Guid(9b59636d509fdd9439639fcb74773f3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dungeon/png/Door/door (5).png using Guid(9b59636d509fdd9439639fcb74773f3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5cb1166b62d8d7232ce511f0502dedf7') in 0.121756 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/Dungeon/png/Door/door (4).png
+  artifactKey: Guid(fbc159e6337605c43ae9718dd607cc5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dungeon/png/Door/door (4).png using Guid(fbc159e6337605c43ae9718dd607cc5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de30ba1718778942ef91d19fe0992c3e') in 0.094209 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Dungeon/png/Objects/crate.png
+  artifactKey: Guid(a4ef180095c14464caf646c6b4678f76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dungeon/png/Objects/crate.png using Guid(a4ef180095c14464caf646c6b4678f76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '074adbad40e16bf5241f5d9e025bee09') in 0.068826 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/Dungeon/png/Chest/chest (1).png
+  artifactKey: Guid(db8568bd35cb81f41834d9691826d539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dungeon/png/Chest/chest (1).png using Guid(db8568bd35cb81f41834d9691826d539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af48f74ead2ab328cd42db970fc0514e') in 0.072822 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/Dungeon/png/Chest/chest (2).png
+  artifactKey: Guid(16fb4ac784aa7dd4fa1a6e4f3f97063c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dungeon/png/Chest/chest (2).png using Guid(16fb4ac784aa7dd4fa1a6e4f3f97063c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2aaeda5eaee9e3629af0cbf8aab3caa') in 0.097950 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/Dungeon/png/Door/door (2).png
+  artifactKey: Guid(59ea51e1abb891b42af9f055fcb178d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dungeon/png/Door/door (2).png using Guid(59ea51e1abb891b42af9f055fcb178d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e007b1a047fe0fbe5f6ef0f304347ac0') in 0.062589 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 26.470026 seconds.
+  path: Assets/assets/Enemy Assets/Slime/die/SlimeDestroy.png
+  artifactKey: Guid(1fb6bd76f20323240bc01f0afc8102eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/assets/Enemy Assets/Slime/die/SlimeDestroy.png using Guid(1fb6bd76f20323240bc01f0afc8102eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b08763917786e2fcbaba0048a73f2c61') in 0.204169 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 186.867704 seconds.
+  path: Assets/assets/Enemy Assets/Slime/die/SlimeDestroy.png
+  artifactKey: Guid(1fb6bd76f20323240bc01f0afc8102eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/assets/Enemy Assets/Slime/die/SlimeDestroy.png using Guid(1fb6bd76f20323240bc01f0afc8102eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '587fe98b53b1c03397eaf307adf9b54b') in 0.058706 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 47.689840 seconds.
+  path: Assets/assets/Enemy Assets/Slime/die/SlimeDestroy.png
+  artifactKey: Guid(1fb6bd76f20323240bc01f0afc8102eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/assets/Enemy Assets/Slime/die/SlimeDestroy.png using Guid(1fb6bd76f20323240bc01f0afc8102eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4422bf0c79482d0d0e1cb82f48478a11') in 0.027870 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 48.526096 seconds.
+  path: Assets/assets/Enemy Assets/Slime/die/SlimeDestroy.png
+  artifactKey: Guid(1fb6bd76f20323240bc01f0afc8102eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/assets/Enemy Assets/Slime/die/SlimeDestroy.png using Guid(1fb6bd76f20323240bc01f0afc8102eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c043d672394ce28f0b8faa10d20688c') in 0.159544 seconds 
